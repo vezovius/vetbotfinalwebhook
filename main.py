@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 import json
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7776065669:AAEWGA0PI1Hs0NwuNTRQUGU8Atkeuhbetdg")
 bot = telebot.TeleBot(BOT_TOKEN)
 
 user_data = {}
