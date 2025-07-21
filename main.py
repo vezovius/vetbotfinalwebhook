@@ -6,6 +6,10 @@ import json
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
+bot.remove_webhook()  # حذف webhook قبل از استفاده از polling
+
+
+bot = telebot.TeleBot(BOT_TOKEN)
 
 user_data = {}
 
