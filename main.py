@@ -3,7 +3,7 @@ from flask import Flask, request
 from telegram import Bot, Update
 from telegram.ext import Dispatcher, CommandHandler
 
-TOKEN = "YOUR_BOT_TOKEN"  # <-- Replace this with your bot token
+TOKEN = "7776065669:AAEWGA0PI1Hs0NwuNTRQUGU8Atkeuhbetdg"  # <-- Replace this with your bot token
 
 bot = Bot(token=TOKEN)
 app = Flask(__name__)
