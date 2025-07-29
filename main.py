@@ -3,7 +3,7 @@ import telebot
 import os
 import json
 
-TOKEN = "YOUR_BOT_TOKEN"  # توکن ربات
+TOKEN = "7776065669:AAEWGA0PI1Hs0NwuNTRQUGU8Atkeuhbetdg"  # توکن ربات
 ADMIN_ID = 67178220  # شناسه عددی تلگرام شما
 
 bot = telebot.TeleBot(TOKEN)
