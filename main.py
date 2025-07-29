@@ -3,7 +3,7 @@ import telebot
 import json
 import os
 
-TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN", "7776065669:AAEWGA0PI1Hs0NwuNTRQUGU8Atkeuhbetdg")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "67178220"))
 DATA_FILE = "data.json"
 
