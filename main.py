@@ -3,7 +3,7 @@ import logging
 from flask import Flask, request
 import telegram
 
-TOKEN = os.environ.get('BOT_TOKEN')
+TOKEN = os.environ.get('7776065669:AAEWGA0PI1Hs0NwuNTRQUGU8Atkeuhbetdg')
 bot = telegram.Bot(token=TOKEN)
 
 app = Flask(__name__)
